@@ -1,1 +1,1 @@
-<footer class="footer text-center text-muted">All Rights Reserved by TefaIfsu</footer>
+<footer class="footer text-center text-muted">&copy; 2025 SMK Informatika Sumedang. All rights reserved.Developed by Tefa Ifsu</footer>
