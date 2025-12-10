@@ -99,6 +99,11 @@
             float: right;
             font-size: 12px;
         }
+
+        .google-login {
+            position: relative;
+            z-index: 10;
+        }
     </style>
 </head>
 
@@ -123,11 +128,11 @@
                     <h3 class="login-title text-center">Login</h3>
                     <p class="subtitle text-center">Masuk sebagai Owner atau Staff</p>
 
-                    <form action="cek_login.php" method="POST" class="mt-4">
+                    <form action="scr_login.php" method="POST" class="mt-4">
 
-                        <label>Email</label>
-                        <input type="email" name="email" class="form-control mb-3"
-                            placeholder="Email" required>
+                        <label>Username</label>
+                        <input type="text" name="username" class="form-control mb-3"
+                            placeholder="Username" required>
 
                         <label>Password</label>
                         <input type="password" name="password" class="form-control mb-2"
@@ -136,19 +141,6 @@
                         <a href="#" class="small-link">Lupa Password?</a>
 
                         <button type="submit" class="btn-login">Login</button>
-
-                        <div class="text-center mt-3">
-                            <span>Atau login dengan Google</span>
-                        </div>
-
-                        <div class="google-login text-center mt-2">
-                            <img src="assets/images/icon-google.png" alt="Google Login">
-                        </div>
-
-                        <div class="text-center mt-3">
-                            Belum punya akun? <a href="daftar.php" class="text-success">Daftar disini</a>
-                        </div>
-
                     </form>
 
                 </div>
